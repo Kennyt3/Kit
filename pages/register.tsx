@@ -7,7 +7,7 @@ const registerPage = (props: RegisterPageType) => {
   return (
     <>
       <Head>
-        <title>FASOS STORE</title>
+        <title>KIT STORE</title>
       </Head>
       <main>
         <Register {...props} />

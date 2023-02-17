@@ -31,6 +31,17 @@
   font-weight: 700;
   line-height: 30.12px;
   text-align: center;
+  color: rgba(37, 39, 51, 1);
+  font-family: 'Mulish', sans-serif;
+}
+.subheading {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: rgba(159, 162, 180, 1);
   font-family: 'Mulish', sans-serif;
 }
 

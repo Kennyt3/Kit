@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.left {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(159, 162, 180, 1);
+}
+
+.right {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(55, 81, 255, 1);
+}

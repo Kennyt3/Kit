@@ -9,14 +9,40 @@
   gap: 10px;
 }
 
+.formcontrol input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .submitBtn {
   margin-top: 15px;
+  display: block;
   background-color: #3751ff;
   color: white;
-  padding: 20px 100px;
-  border-radius: 10px;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 600;
   border: none;
+}
+
+.inp {
+  position: relative;
+}
+
+.inp input {
+  width: 100%;
+}
+
+.abs {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+
+.errorMsg {
+  color: red;
 }

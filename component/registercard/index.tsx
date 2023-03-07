@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from './RegisterCard.module.css'
+import styles from './Registercard.module.css'
 import ResgisterForm from '../form/registerform'
 import { RegisterPageType } from '@/types/pages/register'
 

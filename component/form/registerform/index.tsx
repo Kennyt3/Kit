@@ -1,7 +1,7 @@
 import Signopt from '@/component/signopt'
 import { useState } from 'react'
 import { set, useForm } from 'react-hook-form'
-import styles from './register.module.css'
+import styles from './Register.module.css'
 import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai'
 
 const ResgisterForm = () => {

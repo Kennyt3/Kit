@@ -4,13 +4,14 @@ import { registerPageData } from '../content/register'
 import { RegisterPageType } from '@/types/pages/register'
 
 const registerPage = (props: RegisterPageType) => {
+  const { name, Heading, subHeading } = props
   return (
     <>
       <Head>
         <title>KIT STORE</title>
       </Head>
       <main>
-        <Register {...props} />
+        <Register name={name} Heading={Heading} subHeading={subHeading} />
       </main>
     </>
   )

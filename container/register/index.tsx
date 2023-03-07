@@ -1,13 +1,13 @@
 import styles from './Register.module.css'
 import Div100vh from 'react-div-100vh'
 import RegisterCard from '../../component/registercard'
-import { RegisterType } from '@/types/register'
+import { RegisterPageType } from '@/types/pages/register'
 
-const Register = (registerData: RegisterType) => {
+const Register = ({ name, Heading, subHeading }: RegisterPageType) => {
   return (
     <div>
       <Div100vh className={styles.container}>
-        <RegisterCard {...registerData} />
+        <RegisterCard name={name} Heading={Heading} subHeading={subHeading} />
       </Div100vh>
     </div>
   )
